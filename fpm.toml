@@ -1,0 +1,15 @@
+name = "ex_vtkfortran"
+version = "0.1.0"
+license = "MIT"
+author = "Tomohiro Degawa"
+copyright = "Copyright 2021, Tomohiro Degawa"
+description = "Examples of VTKFortran"
+
+[build]
+auto-executables = true
+
+[install]
+library = false
+
+[dependencies]
+VTKFortran = {git="https://github.com/degawa/VTKFortran", branch="vtkfortran-fpm"}
